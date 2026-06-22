@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>4D Financial Partners — Mortgage, Insurance, KiwiSaver & Specialist Lending</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;font-family:'Inter',system-ui,-apple-system,sans-serif;background:#FBF9F7;color:#2A1A1E;-webkit-font-smoothing:antialiased;}
+  a{text-decoration:none;color:inherit;}
+  input,select,textarea,button{font-family:inherit;}
+  ::selection{background:#EF4130;color:#fff;}
+  @keyframes heroPhrase{0%{opacity:0;transform:translateY(0.4em);}12%{opacity:1;transform:translateY(0);}}
+  [data-pillar]:hover{background:#40242C !important;border-color:#40242C !important;}
+  [data-pillar]:hover h3{color:#fff !important;}
+  [data-pillar]:hover p{color:rgba(255,255,255,0.66) !important;}
+  [data-pillar-feature]:hover{background:#2F1A20 !important;}
+  [data-trot][data-tfade="true"]{opacity:0 !important;}
+  [data-tdot][data-active="true"]{background:#40242C !important;}
+  @media (max-width:980px){
+    [data-hero-grid]{grid-template-columns:1fr !important;}
+    [data-contact-grid]{grid-template-columns:1fr !important;}
+    [data-why-grid]{grid-template-columns:1fr !important;}
+    [data-situations-grid]{grid-template-columns:1fr !important;}
+    [data-pillar-grid]{grid-template-columns:1fr 1fr !important;}
+    [data-process-grid]{grid-template-columns:1fr 1fr !important;}
+  }
+  @media (max-width:560px){
+    [data-pillar-grid],[data-process-grid],[data-why-cards],[data-situations-cards],[data-advisers-grid]{grid-template-columns:1fr !important;}
+    [data-hero-art]{display:none !important;}
+    [data-hero-bar]{flex-wrap:wrap !important;}
+    [data-hero-bar] input{flex:1 0 100% !important;border-left:none !important;}
+    [data-hero-bar] button{flex:1 0 100% !important;}
+  }
+
+[data-nav-burger]{display:none;}
+[data-mobile-menu]{display:none;}
+@media (max-width:980px){[data-nav-desktop],[data-nav-cta]{display:none!important;}[data-nav-burger]{display:flex!important;}[data-footer-grid]{grid-template-columns:1fr 1fr!important;}}
+@media (max-width:560px){[data-footer-grid]{grid-template-columns:1fr!important;}}
+</style>
+</head>
+<body>
+<div style="background:#FBF9F7;color:#2A1A1E;overflow-x:hidden;">
+  <header style="position:sticky;top:0;z-index:50;background:#40242C;border-bottom:1px solid rgba(255,255,255,0.09);">
+    <nav style="max-width:1200px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px;">
+      <a href="#top" style="display:flex;align-items:center;gap:11px;flex:none;">
+        <img src="assets/logo-mark-sand.png" alt="" style="height:34px;width:auto;display:block;" />
+        <span style="font-weight:800;font-size:14px;letter-spacing:0.06em;color:#fff;line-height:1.1;">4D FINANCIAL<br>PARTNERS</span>
+      </a>
+      <div data-nav-desktop style="display:flex;align-items:center;gap:28px;font-size:15px;font-weight:500;">
+        <a href="mortgages.html" style="color:rgba(255,255,255,0.82);">Mortgages</a><a href="specialist-lending.html" style="color:rgba(255,255,255,0.82);">Specialist lending</a><a href="insurance.html" style="color:rgba(255,255,255,0.82);">Insurance</a><a href="kiwisaver.html" style="color:rgba(255,255,255,0.82);">KiwiSaver</a><a href="important-documents.html" style="color:rgba(255,255,255,0.82);">Important documents</a>
+      </div>
+      <div data-nav-cta style="display:flex;align-items:center;gap:18px;flex:none;">
+        <a href="tel:+6421540274" style="font-size:15px;font-weight:600;color:#fff;white-space:nowrap;display:flex;align-items:center;gap:7px;"><span style="width:7px;height:7px;border-radius:50%;background:#EF4130;display:inline-block;"></span>021 540 274</a>
+        <a href="#contact" style="background:#EF4130;color:#fff;font-weight:600;font-size:15px;padding:11px 20px;border-radius:4px;">Book a call</a>
+      </div>
+      <button data-nav-burger aria-label="Menu" style="border:1px solid rgba(255,255,255,0.25);background:transparent;width:42px;height:42px;border-radius:4px;cursor:pointer;align-items:center;justify-content:center;flex-direction:column;gap:4px;">
+        <span style="display:block;width:18px;height:2px;background:#fff;"></span><span style="display:block;width:18px;height:2px;background:#fff;"></span><span style="display:block;width:18px;height:2px;background:#fff;"></span>
+      </button>
+    </nav>
+    <div data-mobile-menu style="padding:10px 24px 22px;flex-direction:column;gap:2px;background:#40242C;">
+      <a href="mortgages.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">Mortgages</a>
+      <a href="specialist-lending.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">Specialist lending</a>
+      <a href="insurance.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">Insurance</a>
+      <a href="kiwisaver.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">KiwiSaver</a>
+      <a href="important-documents.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">Important documents</a>
+      <a href="#contact" style="margin-top:12px;background:#EF4130;color:#fff;text-align:center;font-weight:600;padding:14px;border-radius:4px;">Book a call</a>
+    </div>
+  </header>
+  <section id="top" style="position:relative;background:#40242C;color:#fff;overflow:hidden;">
+    <div style="position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:clamp(56px,7.5vw,116px) 24px clamp(56px,7vw,104px);">
+      <div style="display:grid;grid-template-columns:1.04fr 0.96fr;gap:clamp(28px,4.5vw,60px);align-items:center;" data-hero-grid>
+        <div>
+          <div style="display:inline-flex;align-items:center;gap:10px;font-size:12.5px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#EF4130;margin-bottom:22px;">
+            <span style="width:24px;height:1.5px;background:#EF4130;"></span>Mortgage · Insurance · KiwiSaver · Specialist lending<span style="width:24px;height:1.5px;background:#EF4130;"></span>
+          </div>
+          <h1 style="font-weight:900;font-size:clamp(2.7rem,5.8vw,4.7rem);line-height:0.98;letter-spacing:-0.03em;margin:0 0 22px;color:#fff;text-wrap:balance;min-height:clamp(5.3rem,11.4vw,9.2rem);"><span id="hero-phrase" style="display:inline-block;">When the bank says no, we find the way it says yes.</span></h1>
+          <p style="font-size:clamp(1.08rem,1.5vw,1.28rem);line-height:1.5;color:rgba(255,255,255,0.78);max-width:30em;margin:0 0 30px;">One independent team for your mortgage, insurance and KiwiSaver — including the deals the banks won't do.</p>
+          <form id="hero-form" data-hero-bar style="display:flex;gap:8px;background:#FBF9F7;border-radius:12px;padding:8px;max-width:520px;box-shadow:0 24px 50px -26px rgba(0,0,0,0.65);margin:0 0 18px;">
+            <input type="text" name="name" required placeholder="Your name" style="flex:1;min-width:0;border:none;background:transparent;padding:12px 14px;font-size:15px;color:#2A1A1E;outline:none;" />
+            <input type="tel" name="phone" required placeholder="Phone" style="flex:1;min-width:0;border:none;border-left:1px solid #ECE3D9;background:transparent;padding:12px 14px;font-size:15px;color:#2A1A1E;outline:none;" />
+            <button type="submit" style="flex:none;background:#EF4130;color:#fff;font-weight:700;font-size:15px;padding:12px 22px;border:none;border-radius:8px;cursor:pointer;white-space:nowrap;">Request a callback</button>
+          </form>
+          <div id="hero-thanks" style="display:none;align-items:center;gap:11px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);border-radius:12px;padding:16px 20px;max-width:520px;margin:0 0 18px;"><span style="width:28px;height:28px;border-radius:50%;background:#EF4130;color:#fff;font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center;flex:none;">✓</span><span style="font-size:15px;color:#fff;">Thanks — an adviser will call you within one working day.</span></div>
+        </div>
+        <div style="position:relative;display:flex;align-items:center;justify-content:center;min-height:clamp(300px,33vw,440px);" data-hero-art>
+          <div style="position:absolute;width:min(560px,94%);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(239,65,48,0.34),rgba(239,65,48,0) 67%);"></div>
+          <img src="assets/logo-mark-berry.png" alt="4D Financial Partners" style="position:relative;width:min(430px,82%);height:auto;display:block;filter:drop-shadow(0 32px 60px rgba(0,0,0,0.42));" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="pillars" style="max-width:1200px;margin:0 auto;padding:clamp(56px,7vw,108px) 24px;">
+    <div style="max-width:680px;margin-bottom:clamp(34px,4vw,52px);">
+      <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#EF4130;margin-bottom:16px;">What we do</div>
+      <h2 style="font-weight:800;font-size:clamp(2rem,3.6vw,2.9rem);line-height:1.06;letter-spacing:-0.025em;color:#40242C;margin:0;">Four specialties. One team that joins them up.</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;" data-pillar-grid>
+      <a href="mortgages.html" style="display:flex;flex-direction:column;padding:30px 26px;background:#fff;border:1px solid rgba(64,36,44,0.12);border-radius:12px;" data-pillar>
+        <div style="height:4px;width:40px;background:#EF4130;margin-bottom:22px;border-radius:2px;"></div>
+        <h3 style="font-weight:800;font-size:1.32rem;color:#40242C;margin:0 0 11px;">Mortgages &amp; home loans</h3>
+        <p style="font-size:15px;line-height:1.6;color:#787267;margin:0 0 22px;flex:1;">First homes, refinances and next moves — matched to the life you're actually building.</p>
+        <span style="font-weight:600;font-size:14.5px;color:#EF4130;">Explore mortgages →</span>
+      </a>
+      <a href="specialist-lending.html" style="display:flex;flex-direction:column;padding:30px 26px;background:#40242C;border:1px solid #40242C;border-radius:12px;position:relative;" data-pillar-feature>
+        <div style="position:absolute;top:18px;right:18px;font-size:10.5px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#40242C;background:#EF4130;padding:4px 9px;border-radius:999px;">Where we differ</div>
+        <div style="height:4px;width:40px;background:#EF4130;margin-bottom:22px;border-radius:2px;"></div>
+        <h3 style="font-weight:800;font-size:1.32rem;color:#fff;margin:0 0 11px;">Non-bank &amp; specialist lending</h3>
+        <p style="font-size:15px;line-height:1.6;color:rgba(255,255,255,0.74);margin:0 0 22px;flex:1;">Self-employed, adverse credit, complex income — the deals the banks won't touch, we often can.</p>
+        <span style="font-weight:600;font-size:14.5px;color:#EF4130;">See if we can help →</span>
+      </a>
+      <a href="insurance.html" style="display:flex;flex-direction:column;padding:30px 26px;background:#fff;border:1px solid rgba(64,36,44,0.12);border-radius:12px;" data-pillar>
+        <div style="height:4px;width:40px;background:#EF4130;margin-bottom:22px;border-radius:2px;"></div>
+        <h3 style="font-weight:800;font-size:1.32rem;color:#40242C;margin:0 0 11px;">Life &amp; health insurance</h3>
+        <p style="font-size:15px;line-height:1.6;color:#787267;margin:0 0 22px;flex:1;">Life, health, income and trauma cover — structured to actually pay out when life turns.</p>
+        <span style="font-weight:600;font-size:14.5px;color:#EF4130;">Explore insurance →</span>
+      </a>
+      <a href="kiwisaver.html" style="display:flex;flex-direction:column;padding:30px 26px;background:#fff;border:1px solid rgba(64,36,44,0.12);border-radius:12px;" data-pillar>
+        <div style="height:4px;width:40px;background:#EF4130;margin-bottom:22px;border-radius:2px;"></div>
+        <h3 style="font-weight:800;font-size:1.32rem;color:#40242C;margin:0 0 11px;">KiwiSaver advice</h3>
+        <p style="font-size:15px;line-height:1.6;color:#787267;margin:0 0 22px;flex:1;">The right fund, properly reviewed — for retirement, your first home, or growing what you have.</p>
+        <span style="font-weight:600;font-size:14.5px;color:#EF4130;">Explore KiwiSaver →</span>
+      </a>
+    </div>
+  </section>
+  <section id="situations" style="background:#F3EEE9;border-top:1px solid rgba(64,36,44,0.07);">
+    <div style="max-width:1200px;margin:0 auto;padding:clamp(56px,7vw,108px) 24px;display:grid;grid-template-columns:0.95fr 1.05fr;gap:clamp(36px,5vw,72px);align-items:center;" data-situations-grid>
+      <div>
+        <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#EF4130;margin-bottom:16px;">Especially when it's not straightforward</div>
+        <h2 style="font-weight:800;font-size:clamp(2rem,3.6vw,2.9rem);line-height:1.06;letter-spacing:-0.025em;color:#40242C;margin:0 0 22px;text-wrap:balance;">Life isn't a tick-box. Good advice shouldn't be either.</h2>
+        <p style="font-size:1.08rem;line-height:1.6;color:#6E6258;margin:0 0 30px;max-width:34em;">Plenty of people come to us after a bank's “computer says no”. Because we're independent — and work with non-bank and specialist lenders — we can often find a way forward when the high-street banks won't. Tell us the situation; we'll tell you honestly what's possible.</p>
+        <a href="#contact" style="display:inline-flex;align-items:center;gap:9px;background:#40242C;color:#fff;font-weight:600;font-size:16px;padding:15px 26px;border-radius:4px;">Talk through your situation →</a>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;" data-situations-cards>
+        <div style="background:#fff;border-radius:10px;padding:20px;display:flex;align-items:flex-start;gap:12px;"><span style="flex:none;width:24px;height:24px;border-radius:50%;background:rgba(239,65,48,0.12);color:#EF4130;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px;">✓</span><span style="font-weight:600;font-size:15px;color:#40242C;line-height:1.35;">The bank already said no</span></div>
+        <div style="background:#fff;border-radius:10px;padding:20px;display:flex;align-items:flex-start;gap:12px;"><span style="flex:none;width:24px;height:24px;border-radius:50%;background:rgba(239,65,48,0.12);color:#EF4130;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px;">✓</span><span style="font-weight:600;font-size:15px;color:#40242C;line-height:1.35;">Self-employed or contracting</span></div>
+        <div style="background:#fff;border-radius:10px;padding:20px;display:flex;align-items:flex-start;gap:12px;"><span style="flex:none;width:24px;height:24px;border-radius:50%;background:rgba(239,65,48,0.12);color:#EF4130;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px;">✓</span><span style="font-weight:600;font-size:15px;color:#40242C;line-height:1.35;">Recently separated or divorced</span></div>
+        <div style="background:#fff;border-radius:10px;padding:20px;display:flex;align-items:flex-start;gap:12px;"><span style="flex:none;width:24px;height:24px;border-radius:50%;background:rgba(239,65,48,0.12);color:#EF4130;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px;">✓</span><span style="font-weight:600;font-size:15px;color:#40242C;line-height:1.35;">Adverse or thin credit history</span></div>
+        <div style="background:#fff;border-radius:10px;padding:20px;display:flex;align-items:flex-start;gap:12px;"><span style="flex:none;width:24px;height:24px;border-radius:50%;background:rgba(239,65,48,0.12);color:#EF4130;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px;">✓</span><span style="font-weight:600;font-size:15px;color:#40242C;line-height:1.35;">New to New Zealand</span></div>
+        <div style="background:#fff;border-radius:10px;padding:20px;display:flex;align-items:flex-start;gap:12px;"><span style="flex:none;width:24px;height:24px;border-radius:50%;background:rgba(239,65,48,0.12);color:#EF4130;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px;">✓</span><span style="font-weight:600;font-size:15px;color:#40242C;line-height:1.35;">Consolidating or refinancing debt</span></div>
+      </div>
+    </div>
+  </section>
+  <section id="why" style="background:#CDBCAF;">
+    <div style="max-width:1200px;margin:0 auto;padding:clamp(56px,7vw,108px) 24px;display:grid;grid-template-columns:0.85fr 1.15fr;gap:clamp(36px,5vw,72px);align-items:center;" data-why-grid>
+      <div>
+        <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#40242C;opacity:0.6;margin-bottom:18px;">Why 4D</div>
+        <h2 style="font-weight:800;font-size:clamp(2rem,3.6vw,2.9rem);line-height:1.08;letter-spacing:-0.025em;color:#40242C;margin:0 0 22px;">Advice that answers to you.</h2>
+        <p style="font-size:1.1rem;line-height:1.6;color:rgba(64,36,44,0.74);margin:0;">We're independent and whole-of-market. No single-bank shelf, no quotas — just a recommendation built around your situation, explained until it makes sense.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;" data-why-cards>
+        <div style="background:#FBF9F7;border-radius:8px;padding:26px;"><div style="color:#EF4130;font-weight:800;font-size:1.18rem;margin-bottom:10px;">Independent</div><p style="font-size:14.5px;line-height:1.55;color:#787267;margin:0;">A whole-of-market panel — not one lender's products.</p></div>
+        <div style="background:#FBF9F7;border-radius:8px;padding:26px;"><div style="color:#EF4130;font-weight:800;font-size:1.18rem;margin-bottom:10px;">Plain-spoken</div><p style="font-size:14.5px;line-height:1.55;color:#787267;margin:0;">No jargon. You'll understand every recommendation.</p></div>
+        <div style="background:#FBF9F7;border-radius:8px;padding:26px;"><div style="color:#EF4130;font-weight:800;font-size:1.18rem;margin-bottom:10px;">Whole picture</div><p style="font-size:14.5px;line-height:1.55;color:#787267;margin:0;">Lending, cover and KiwiSaver considered together.</p></div>
+        <div style="background:#FBF9F7;border-radius:8px;padding:26px;"><div style="color:#EF4130;font-weight:800;font-size:1.18rem;margin-bottom:10px;">Ongoing</div><p style="font-size:14.5px;line-height:1.55;color:#787267;margin:0;">We review as your life changes — not just at the start.</p></div>
+      </div>
+    </div>
+  </section>
+  <section style="max-width:1200px;margin:0 auto;padding:clamp(56px,7vw,108px) 24px;">
+    <div style="max-width:560px;margin-bottom:clamp(34px,4vw,52px);">
+      <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#EF4130;margin-bottom:16px;">How it works</div>
+      <h2 style="font-weight:800;font-size:clamp(2rem,3.6vw,2.9rem);line-height:1.06;letter-spacing:-0.025em;color:#40242C;margin:0;">Four steps. No obligation.</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px;" data-process-grid>
+      <div style="padding-top:22px;border-top:2px solid #EF4130;"><div style="font-family:ui-monospace,monospace;font-size:13px;color:#787267;margin-bottom:14px;">01</div><h3 style="font-weight:700;font-size:1.2rem;color:#40242C;margin:0 0 10px;">Talk</h3><p style="font-size:14.5px;line-height:1.55;color:#787267;margin:0;">A relaxed conversation about where you're headed.</p></div>
+      <div style="padding-top:22px;border-top:2px solid rgba(64,36,44,0.14);"><div style="font-family:ui-monospace,monospace;font-size:13px;color:#787267;margin-bottom:14px;">02</div><h3 style="font-weight:700;font-size:1.2rem;color:#40242C;margin:0 0 10px;">Plan</h3><p style="font-size:14.5px;line-height:1.55;color:#787267;margin:0;">We map the market and recommend what genuinely fits.</p></div>
+      <div style="padding-top:22px;border-top:2px solid rgba(64,36,44,0.14);"><div style="font-family:ui-monospace,monospace;font-size:13px;color:#787267;margin-bottom:14px;">03</div><h3 style="font-weight:700;font-size:1.2rem;color:#40242C;margin:0 0 10px;">Arrange</h3><p style="font-size:14.5px;line-height:1.55;color:#787267;margin:0;">We handle the lenders and paperwork for you.</p></div>
+      <div style="padding-top:22px;border-top:2px solid rgba(64,36,44,0.14);"><div style="font-family:ui-monospace,monospace;font-size:13px;color:#787267;margin-bottom:14px;">04</div><h3 style="font-weight:700;font-size:1.2rem;color:#40242C;margin:0 0 10px;">Review</h3><p style="font-size:14.5px;line-height:1.55;color:#787267;margin:0;">We stay in your corner as life moves on.</p></div>
+    </div>
+  </section>
+  <section style="background:#40242C;color:#fff;">
+    <div style="max-width:1200px;margin:0 auto;padding:clamp(56px,7vw,104px) 24px;">
+      <div style="max-width:560px;margin-bottom:clamp(28px,3.2vw,40px);">
+        <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#EF4130;margin-bottom:16px;">The people behind the advice</div>
+        <h2 style="font-weight:800;font-size:clamp(2rem,3.6vw,2.9rem);line-height:1.06;letter-spacing:-0.025em;color:#fff;margin:0 0 14px;">Real people. Real conversations.</h2>
+        <p style="font-size:1rem;line-height:1.55;color:rgba(255,255,255,0.66);margin:0;">You'll deal with the same adviser from first call to settlement — someone who learns your situation and stays in your corner.</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:16px;" data-advisers-grid>
+        <div style="display:flex;align-items:center;gap:16px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:14px 20px 14px 14px;width:340px;max-width:100%;">
+          <img src="assets/adviser-addison.jpeg" alt="Addison Dale" style="width:84px;height:84px;border-radius:10px;object-fit:cover;flex:none;" />
+          <div><div style="font-weight:700;font-size:1.12rem;color:#fff;">Addison Dale</div><div style="font-size:13.5px;color:rgba(255,255,255,0.62);margin-top:4px;line-height:1.4;">Director &amp; Financial Adviser</div></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:16px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:14px 20px 14px 14px;width:340px;max-width:100%;">
+          <div style="width:84px;height:84px;border-radius:10px;flex:none;background:repeating-linear-gradient(135deg,rgba(205,188,175,0.18) 0 12px,rgba(205,188,175,0.3) 12px 24px);display:flex;align-items:center;justify-content:center;"><span style="font-family:ui-monospace,Menlo,monospace;font-size:9px;color:rgba(255,255,255,0.8);">photo</span></div>
+          <div><div style="font-weight:700;font-size:1.12rem;color:#fff;">Yumeng Liu</div><div style="font-size:13.5px;color:rgba(255,255,255,0.62);margin-top:4px;line-height:1.4;">Mortgage Support</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="resources" style="max-width:920px;margin:0 auto;padding:clamp(56px,7vw,108px) 24px;text-align:center;">
+    <div style="display:inline-flex;align-items:center;gap:9px;font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#EF4130;margin-bottom:26px;">Client stories</div>
+    <div id="t-rot" data-trot data-tfade="false" style="transition:opacity .28s ease;min-height:clamp(170px,24vw,230px);display:flex;flex-direction:column;justify-content:center;">
+      <blockquote style="font-weight:700;font-size:clamp(1.12rem,2vw,1.6rem);line-height:1.4;letter-spacing:-0.015em;color:#40242C;margin:0 0 28px;text-wrap:pretty;">&ldquo;<span id="t-quote">Addison helped us with our very complex mortgage situation and made the process really easy for us. We loved that his services included insurance and KiwiSaver planning, so we could keep all our financial needs under one roof. The team are always so welcoming, and he has gone over and above for us a number of times when the banks were being difficult.</span>&rdquo;</blockquote>
+      <div style="display:flex;align-items:center;justify-content:center;gap:14px;">
+        <div id="t-initials" style="width:46px;height:46px;border-radius:50%;background:#40242C;color:#fff;font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center;flex:none;">MB</div>
+        <div style="text-align:left;"><div id="t-name" style="font-weight:700;font-size:15px;color:#40242C;">Mike Baker</div><div id="t-role" style="font-size:13.5px;color:#787267;">Mortgage, insurance &amp; KiwiSaver client</div></div>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:30px;">
+      <button data-tdot data-active="true" data-dot="0" aria-label="Story 1" style="width:9px;height:9px;border-radius:50%;border:none;padding:0;cursor:pointer;background:rgba(64,36,44,0.2);transition:background .2s;"></button>
+      <button data-tdot data-active="false" data-dot="1" aria-label="Story 2" style="width:9px;height:9px;border-radius:50%;border:none;padding:0;cursor:pointer;background:rgba(64,36,44,0.2);transition:background .2s;"></button>
+    </div>
+  </section>
+  <section id="contact" style="background:#EF4130;color:#fff;">
+    <div style="max-width:1200px;margin:0 auto;padding:clamp(52px,7vw,100px) 24px;display:grid;grid-template-columns:1fr 0.92fr;gap:clamp(36px,5vw,72px);align-items:center;" data-contact-grid>
+      <div>
+        <h2 style="font-weight:900;font-size:clamp(2.1rem,4.4vw,3.4rem);line-height:1.04;letter-spacing:-0.025em;margin:0 0 18px;text-wrap:balance;">Let's talk about your next move.</h2>
+        <p style="font-size:1.15rem;line-height:1.5;color:rgba(255,255,255,0.9);margin:0 0 28px;max-width:32em;">Tell us where you're at. We'll listen first, then tell you honestly whether — and how — we can help. No obligation, ever.</p>
+        <div style="display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px;">
+          <a href="tel:+6421540274" style="display:inline-flex;align-items:center;gap:9px;background:#40242C;color:#fff;font-weight:600;font-size:16px;padding:14px 24px;border-radius:6px;">Call 021 540 274</a>
+          <span style="font-size:13.5px;font-weight:500;color:rgba(255,255,255,0.88);display:inline-flex;align-items:center;gap:8px;"><span style="width:7px;height:7px;border-radius:50%;background:#fff;display:inline-block;"></span>Licensed Financial Advice Provider · FMA</span>
+        </div>
+      </div>
+      <div style="background:#FBF9F7;color:#2A1A1E;border-radius:14px;padding:clamp(24px,2.4vw,32px);box-shadow:0 30px 70px -28px rgba(64,36,44,0.5);">
+        <div id="contact-form-state">
+          <h3 style="font-weight:800;font-size:1.35rem;color:#40242C;margin:0 0 16px;">Request a callback</h3>
+          <form id="contact-form">
+            <input type="text" name="name" required placeholder="Your name" style="width:100%;padding:13px 14px;border:1px solid #E0D6CB;border-radius:7px;font-size:15px;background:#fff;color:#2A1A1E;margin-bottom:10px;outline:none;" />
+            <input type="text" name="phone_or_email" required placeholder="Phone or email" style="width:100%;padding:13px 14px;border:1px solid #E0D6CB;border-radius:7px;font-size:15px;background:#fff;color:#2A1A1E;margin-bottom:10px;outline:none;" />
+            <textarea name="situation" required rows="3" placeholder="Briefly, what's your situation? (e.g. bank declined us, self-employed, first home…)" style="width:100%;padding:13px 14px;border:1px solid #E0D6CB;border-radius:7px;font-size:15px;background:#fff;color:#2A1A1E;margin-bottom:16px;outline:none;resize:vertical;line-height:1.45;"></textarea>
+            <button type="submit" style="width:100%;background:#EF4130;color:#fff;font-weight:700;font-size:16px;padding:15px;border:none;border-radius:7px;cursor:pointer;">Send &amp; request a callback</button>
+          </form>
+          <p style="font-size:12.5px;line-height:1.45;color:#9A9085;margin:14px 0 0;text-align:center;">No obligation. We usually reply within one working day.</p>
+        </div>
+        <div id="contact-thanks" style="display:none;text-align:center;padding:20px 6px;">
+          <div style="width:56px;height:56px;border-radius:50%;background:rgba(239,65,48,0.12);color:#EF4130;font-size:26px;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;">✓</div>
+          <h3 style="font-weight:800;font-size:1.4rem;color:#40242C;margin:0 0 8px;">Thanks — message received.</h3>
+          <p style="font-size:15px;line-height:1.55;color:#787267;margin:0;">An adviser will be in touch within one working day to talk through your options.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer style="background:#40242C;color:#fff;">
+    <div style="max-width:1200px;margin:0 auto;padding:clamp(48px,5vw,72px) 24px 32px;">
+      <div data-footer-grid style="display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:36px;">
+        <div>
+          <img src="assets/logo-mark-sand.png" alt="" style="height:54px;width:auto;display:block;margin-bottom:18px;" />
+          <div style="font-weight:800;font-size:1.05rem;letter-spacing:0.02em;color:#fff;margin-bottom:10px;">4D FINANCIAL PARTNERS</div>
+          <p style="font-size:14px;line-height:1.6;color:rgba(255,255,255,0.6);margin:0;max-width:26em;">Independent financial advice for New Zealanders — mortgages, specialist lending, insurance and KiwiSaver.</p>
+        </div>
+        <div><div style="font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:16px;">Services</div><div style="display:flex;flex-direction:column;gap:11px;font-size:14.5px;color:rgba(255,255,255,0.78);"><a href="mortgages.html">Mortgages &amp; home loans</a><a href="specialist-lending.html">Specialist lending</a><a href="insurance.html">Life &amp; health insurance</a><a href="kiwisaver.html">KiwiSaver advice</a></div></div>
+        <div><div style="font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:16px;">Company</div><div style="display:flex;flex-direction:column;gap:11px;font-size:14.5px;color:rgba(255,255,255,0.78);"><a href="#why">About us</a><a href="#situations">Tricky situations</a><a href="#contact">Book a call</a></div></div>
+        <div><div style="font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:16px;">Important documents</div><div style="display:flex;flex-direction:column;gap:11px;font-size:14.5px;color:rgba(255,255,255,0.78);"><a href="important-documents.html">Disclosure statement</a><a href="important-documents.html">Complaints process</a><a href="important-documents.html">Privacy policy</a><a href="important-documents.html">Scope of service</a></div></div>
+      </div>
+      <div style="margin-top:44px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.1);display:flex;flex-wrap:wrap;gap:14px 28px;justify-content:space-between;align-items:center;">
+        <p style="font-size:12.5px;line-height:1.55;color:rgba(255,255,255,0.5);margin:0;max-width:62ch;">4D Financial Partners Ltd is a Licensed Financial Advice Provider (FMA). A copy of our disclosure statement is available free of charge on request. © 2026 4D Financial Partners Ltd.</p>
+        <a href="tel:+6421540274" style="font-size:13px;font-weight:600;color:rgba(255,255,255,0.78);">4dfinancial.nz · 021 540 274</a>
+      </div>
+    </div>
+  </footer>
+</div>
+<script>
+(function(){var b=document.querySelector('[data-nav-burger]');var m=document.querySelector('[data-mobile-menu]');if(b&&m){b.addEventListener('click',function(){m.style.display=(m.style.display==='flex')?'none':'flex';});}})();
+</script>
+<script>
+(function(){
+  var phrases=[
+    "When the bank says no, we find the way it says yes.",
+    "Cover that actually pays out when life turns.",
+    "Your KiwiSaver, reviewed and working harder.",
+    "First home or next move — we'll get you there.",
+    "One team for your whole financial picture."
+  ];
+  var hp=document.getElementById('hero-phrase'),pi=0;
+  if(hp){setInterval(function(){pi=(pi+1)%phrases.length;hp.style.animation='none';void hp.offsetWidth;hp.textContent=phrases[pi];hp.style.animation='heroPhrase 3.8s ease both';},3800);}
+  var ts=[
+    {q:"Addison helped us with our very complex mortgage situation and made the process really easy for us. We loved that his services included insurance and KiwiSaver planning, so we could keep all our financial needs under one roof. The team are always so welcoming, and he has gone over and above for us a number of times when the banks were being difficult.",n:"Mike Baker",r:"Mortgage, insurance & KiwiSaver client",i:"MB"},
+    {q:"As business owners with three properties, we hit a wall securing our fourth. None of our previous brokers came close to the service, creativity and strategy 4D brought — they laid out a clear path to grow our portfolio and made what felt impossible, achievable.",n:"Ziggy Conroy",r:"Business owner & property investor",i:"ZC"}
+  ];
+  var ti=0,rot=document.getElementById('t-rot'),tt;
+  var elQ=document.getElementById('t-quote'),elN=document.getElementById('t-name'),elR=document.getElementById('t-role'),elI=document.getElementById('t-initials');
+  var dots=document.querySelectorAll('[data-dot]');
+  function render(){var t=ts[ti];if(elQ)elQ.textContent=t.q;if(elN)elN.textContent=t.n;if(elR)elR.textContent=t.r;if(elI)elI.textContent=t.i;dots.forEach(function(d,k){d.setAttribute('data-active',k===ti?'true':'false');});}
+  function cycle(next){if(rot)rot.setAttribute('data-tfade','true');setTimeout(function(){ti=(next==null)?((ti+1)%ts.length):next;render();if(rot)rot.setAttribute('data-tfade','false');},280);}
+  function start(){tt=setInterval(function(){cycle();},7000);}
+  if(rot){render();start();dots.forEach(function(d){d.addEventListener('click',function(){clearInterval(tt);start();cycle(parseInt(d.getAttribute('data-dot'),10));});});}
+  function send(form,subject){var fd=new FormData(form);fd.append('access_key','01188b4f-9ce3-4a46-aa06-ad385b2f08a4');fd.append('subject',subject);fd.append('from_name','4D Financial Partners website');fetch('https://api.web3forms.com/submit',{method:'POST',body:fd}).catch(function(){});}
+  var hf=document.getElementById('hero-form');
+  if(hf){hf.addEventListener('submit',function(e){e.preventDefault();send(hf,'New website lead — hero form');hf.style.display='none';var th=document.getElementById('hero-thanks');if(th)th.style.display='flex';});}
+  var cf=document.getElementById('contact-form');
+  if(cf){cf.addEventListener('submit',function(e){e.preventDefault();send(cf,'New website lead — contact form');var st=document.getElementById('contact-form-state'),th=document.getElementById('contact-thanks');if(st)st.style.display='none';if(th)th.style.display='block';});}
+})();
+</script>
+</body>
+</html>
