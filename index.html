@@ -278,7 +278,7 @@
   function cycle(next){if(rot)rot.setAttribute('data-tfade','true');setTimeout(function(){ti=(next==null)?((ti+1)%ts.length):next;render();if(rot)rot.setAttribute('data-tfade','false');},280);}
   function start(){tt=setInterval(function(){cycle();},7000);}
   if(rot){render();start();dots.forEach(function(d){d.addEventListener('click',function(){clearInterval(tt);start();cycle(parseInt(d.getAttribute('data-dot'),10));});});}
-  function send(form,subject){var fd=new FormData(form);fd.append('access_key','01188b4f-9ce3-4a46-aa06-ad385b2f08a4');fd.append('subject',subject);fd.append('from_name','4D Financial Partners website');fetch('https://api.web3forms.com/submit',{method:'POST',body:fd}).catch(function(){});}
+  function send(form,subject){var fd=new FormData(form);fd.append('_subject',subject);fetch('https://formspree.io/f/xzdlbelb',{method:'POST',body:fd,headers:{'Accept':'application/json'}}).catch(function(){});}
   var hf=document.getElementById('hero-form');
   if(hf){hf.addEventListener('submit',function(e){e.preventDefault();send(hf,'New website lead — hero form');hf.style.display='none';var th=document.getElementById('hero-thanks');if(th)th.style.display='flex';});}
   var cf=document.getElementById('contact-form');
