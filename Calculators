@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mortgage Calculators — Repayments, Extra Payments, Refix &amp; LVR | 4D Financial Partners</title>
+<meta name="description" content="Free NZ mortgage calculators: work out your repayments, see what extra payments save you, compare rates before you refix, check your deposit and LVR, and estimate rental returns. Estimates only; talk to a licensed adviser before deciding.">
+<link rel="canonical" href="https://www.4d.financial/calculators.html">
+<meta name="theme-color" content="#40242C">
+<link rel="icon" type="image/png" href="logo-mark-berry.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.4d.financial/calculators.html">
+<meta property="og:title" content="Mortgage Calculators | 4D Financial Partners">
+<meta property="og:description" content="Work out repayments, extra-payment savings, refix comparisons and LVR. Free NZ mortgage calculators from 4D Financial Partners.">
+<meta property="og:image" content="https://www.4d.financial/logo-mark-berry.png">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mortgage Calculators",
+  "url": "https://www.4d.financial/calculators.html",
+  "description": "NZ mortgage calculators for repayments, extra repayments, refix comparisons and LVR.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "4D Financial Partners",
+    "url": "https://www.4d.financial/"
+  }
+}
+</script>
+<!-- TUESDAY (Google Ads setup): paste the same GA4 / gtag snippet used on index.html here. -->
+<style>
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;scroll-padding-top:84px;}
+  body{margin:0;font-family:'Inter',system-ui,-apple-system,sans-serif;background:#FBF9F7;color:#2A1A1E;-webkit-font-smoothing:antialiased;}
+  a{text-decoration:none;color:inherit;}
+  input,select,textarea,button{font-family:inherit;}
+  ::selection{background:#EF4130;color:#fff;}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+  .skip-link{position:absolute;left:-9999px;top:0;z-index:100;background:#EF4130;color:#fff;font-weight:700;padding:12px 20px;border-radius:0 0 6px 0;}
+  .skip-link:focus{left:0;}
+  a:focus-visible,button:focus-visible{outline:3px solid #EF4130;outline-offset:2px;}
+  input:focus-visible,select:focus-visible{outline:2px solid #EF4130;outline-offset:1px;}
+  .calc-label{display:block;font-weight:600;font-size:13.5px;color:#40242C;margin:0 0 6px;}
+  .calc-input{width:100%;padding:12px 13px;border:1px solid #E0D6CB;border-radius:7px;font-size:15px;background:#fff;color:#2A1A1E;outline:none;}
+  .calc-hint{font-size:12px;line-height:1.4;color:#9A9085;margin:5px 0 0;}
+  .calc-field{margin-bottom:14px;}
+  .result-label{font-size:12px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.55);margin:0 0 4px;}
+  .result-big{font-weight:900;font-size:clamp(1.7rem,2.6vw,2.2rem);letter-spacing:-0.02em;color:#fff;margin:0;line-height:1.1;}
+  .result-mid{font-weight:800;font-size:1.15rem;color:#fff;margin:0;}
+  .result-accent{color:#EF4130;}
+  .result-row{padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.1);}
+  .result-row:last-child{border-bottom:none;}
+  .calc-card{background:#fff;border:1px solid rgba(64,36,44,0.12);border-radius:14px;padding:clamp(24px,3vw,36px);display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,3.4vw,44px);align-items:start;}
+  .result-panel{background:#40242C;border-radius:12px;padding:clamp(20px,2.4vw,28px);}
+  [data-mobile-bar]{display:none;}
+  @media (max-width:900px){[data-hero-mark]{display:none;}}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto;}}
+  @media (max-width:900px){.calc-card{grid-template-columns:1fr !important;}}
+  @media (max-width:560px){
+    [data-mobile-bar]{display:flex !important;}
+    body{padding-bottom:64px;}
+  }
+[data-nav-burger]{display:none;}
+[data-mobile-menu]{display:none;}
+@media (max-width:980px){[data-nav-desktop],[data-nav-cta]{display:none!important;}[data-nav-burger]{display:flex!important;}[data-footer-grid]{grid-template-columns:1fr 1fr!important;}}
+@media (max-width:560px){[data-footer-grid]{grid-template-columns:1fr!important;}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div style="background:#FBF9F7;color:#2A1A1E;overflow-x:hidden;">
+  <header style="position:sticky;top:0;z-index:50;background:#40242C;border-bottom:1px solid rgba(255,255,255,0.09);">
+    <nav style="max-width:1200px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px;" aria-label="Main">
+      <a href="index.html" style="display:flex;align-items:center;gap:11px;flex:none;">
+        <img src="logo-mark-sand.png" alt="4D Financial Partners" width="34" height="34" style="height:34px;width:auto;display:block;" />
+        <span style="font-weight:800;font-size:14px;letter-spacing:0.06em;color:#fff;line-height:1.1;">4D FINANCIAL<br>PARTNERS</span>
+      </a>
+      <div data-nav-desktop style="display:flex;align-items:center;gap:28px;font-size:15px;font-weight:600;">
+        <a href="mortgages.html" style="color:rgba(255,255,255,0.82);">Mortgages</a><a href="specialist-lending.html" style="color:rgba(255,255,255,0.82);">Specialist lending</a><a href="insurance.html" style="color:rgba(255,255,255,0.82);">Insurance</a><a href="kiwisaver.html" style="color:rgba(255,255,255,0.82);">KiwiSaver</a><a href="calculators.html" aria-current="page" style="color:#fff;">Calculators</a><a href="important-documents.html" style="color:rgba(255,255,255,0.82);">Important documents</a>
+      </div>
+      <div data-nav-cta style="display:flex;align-items:center;gap:18px;flex:none;">
+        <a href="tel:+6421540274" data-tel style="font-size:15px;font-weight:600;color:#fff;white-space:nowrap;display:flex;align-items:center;gap:7px;"><span style="width:7px;height:7px;border-radius:50%;background:#EF4130;display:inline-block;" aria-hidden="true"></span>021 540 274</a>
+        <a href="index.html#contact" style="background:#EF4130;color:#fff;font-weight:600;font-size:15px;padding:11px 20px;border-radius:4px;">Book a call</a>
+      </div>
+      <button data-nav-burger aria-label="Open menu" aria-expanded="false" style="border:1px solid rgba(255,255,255,0.25);background:transparent;width:42px;height:42px;border-radius:4px;cursor:pointer;align-items:center;justify-content:center;flex-direction:column;gap:4px;">
+        <span style="display:block;width:18px;height:2px;background:#fff;" aria-hidden="true"></span><span style="display:block;width:18px;height:2px;background:#fff;" aria-hidden="true"></span><span style="display:block;width:18px;height:2px;background:#fff;" aria-hidden="true"></span>
+      </button>
+    </nav>
+    <div data-mobile-menu style="padding:10px 24px 22px;flex-direction:column;gap:2px;background:#40242C;">
+      <a href="mortgages.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">Mortgages</a>
+      <a href="specialist-lending.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">Specialist lending</a>
+      <a href="insurance.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">Insurance</a>
+      <a href="kiwisaver.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">KiwiSaver</a>
+      <a href="calculators.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">Calculators</a>
+      <a href="important-documents.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">Important documents</a>
+      <a href="index.html#contact" style="margin-top:12px;background:#EF4130;color:#fff;text-align:center;font-weight:600;padding:14px;border-radius:4px;">Book a call</a>
+    </div>
+  </header>
+  <main id="main">
+  <section style="background:#40242C;color:#fff;position:relative;overflow:hidden;">
+    <img data-hero-mark src="logo-mark-berry.png" alt="" width="380" height="380" loading="lazy" style="position:absolute;right:-30px;top:50%;transform:translateY(-50%);width:360px;height:auto;opacity:0.45;pointer-events:none;" />
+    <div style="position:relative;max-width:1200px;margin:0 auto;padding:clamp(48px,6vw,88px) 24px;">
+      <div style="display:inline-flex;align-items:center;gap:10px;font-size:12.5px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#EF4130;margin-bottom:20px;">
+        <span style="width:24px;height:1.5px;background:#EF4130;" aria-hidden="true"></span>Calculators
+      </div>
+      <h1 style="font-weight:900;font-size:clamp(2.3rem,4.8vw,3.8rem);line-height:1.02;letter-spacing:-0.03em;margin:0 0 18px;color:#fff;text-wrap:balance;max-width:16em;">Run your own numbers first.</h1>
+      <p style="font-size:clamp(1.05rem,1.4vw,1.2rem);line-height:1.55;color:rgba(255,255,255,0.78);max-width:38em;margin:0;">Work out repayments, see what extra payments save you, compare rates before you refix, and check where your deposit sits. Then, if you want the numbers tested against real lender criteria, that's what we're here for.</p>
+    </div>
+  </section>
+
+  <section style="max-width:1200px;margin:0 auto;padding:clamp(44px,5.5vw,80px) 24px 0;">
+    <nav aria-label="Calculators on this page" style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:clamp(36px,4.5vw,56px);">
+      <a href="#repayments" style="background:#fff;border:1px solid rgba(64,36,44,0.15);border-radius:999px;padding:9px 18px;font-size:14px;font-weight:600;color:#40242C;">Loan repayments</a>
+      <a href="#extra" style="background:#fff;border:1px solid rgba(64,36,44,0.15);border-radius:999px;padding:9px 18px;font-size:14px;font-weight:600;color:#40242C;">Extra repayments</a>
+      <a href="#refix" style="background:#fff;border:1px solid rgba(64,36,44,0.15);border-radius:999px;padding:9px 18px;font-size:14px;font-weight:600;color:#40242C;">Refix &amp; refinance</a>
+      <a href="#lvr" style="background:#fff;border:1px solid rgba(64,36,44,0.15);border-radius:999px;padding:9px 18px;font-size:14px;font-weight:600;color:#40242C;">Deposit &amp; LVR</a>
+      <a href="#rental" style="background:#fff;border:1px solid rgba(64,36,44,0.15);border-radius:999px;padding:9px 18px;font-size:14px;font-weight:600;color:#40242C;">Rental return</a>
+    </nav>
+
+    <!-- ═══════════ 1. LOAN REPAYMENT CALCULATOR ═══════════ -->
+    <div id="repayments" style="margin-bottom:clamp(44px,5.5vw,72px);">
+      <div style="max-width:680px;margin-bottom:22px;">
+        <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#EF4130;margin-bottom:12px;">Calculator 01</div>
+        <h2 style="font-weight:800;font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.08;letter-spacing:-0.02em;color:#40242C;margin:0 0 10px;">Loan repayment calculator</h2>
+        <p style="font-size:15.5px;line-height:1.6;color:#6E6258;margin:0;">What a loan costs per week, fortnight or month, the total interest over the term, and what happens if rates rise.</p>
+      </div>
+      <div class="calc-card">
+        <div>
+          <div class="calc-field"><label class="calc-label" for="r-amount">Loan amount ($)</label><input class="calc-input" type="number" id="r-amount" inputmode="decimal" min="0" step="1000" value="600000"></div>
+          <div class="calc-field"><label class="calc-label" for="r-rate">Interest rate (% p.a.)</label><input class="calc-input" type="number" id="r-rate" inputmode="decimal" min="0" max="25" step="0.01" value="5.50"><p class="calc-hint">Use the rate you've been quoted or want to test. Rates change and vary by lender.</p></div>
+          <div class="calc-field"><label class="calc-label" for="r-term">Loan term (years)</label><input class="calc-input" type="number" id="r-term" inputmode="numeric" min="1" max="35" step="1" value="30"></div>
+          <div class="calc-field"><label class="calc-label" for="r-freq">Repayment frequency</label><select class="calc-input" id="r-freq"><option value="52">Weekly</option><option value="26" selected>Fortnightly</option><option value="12">Monthly</option></select></div>
+        </div>
+        <div class="result-panel">
+          <div class="result-row"><p class="result-label">Repayment (principal &amp; interest)</p><p class="result-big"><span class="result-accent" id="r-payment">$0</span> <span style="font-size:1rem;font-weight:600;color:rgba(255,255,255,0.6);" id="r-freq-label">per fortnight</span></p></div>
+          <div class="result-row"><p class="result-label">Total interest over the term</p><p class="result-mid" id="r-interest">$0</p></div>
+          <div class="result-row"><p class="result-label">Total repaid over the term</p><p class="result-mid" id="r-total">$0</p></div>
+          <div class="result-row"><p class="result-label">Stress test: repayment if rates rise 1%</p><p class="result-mid" id="r-stress">$0</p></div>
+          <div class="result-row"><p class="result-label">Interest-only equivalent</p><p class="result-mid" id="r-io">$0</p></div>
+          <div class="result-row">
+            <p class="result-label">Where the money goes over the term</p>
+            <svg viewBox="0 0 120 120" width="128" height="128" aria-hidden="true" style="display:block;margin:8px auto 4px;">
+              <circle cx="60" cy="60" r="45" fill="none" stroke="#CDBCAF" stroke-width="16"></circle>
+              <circle id="r-donut" cx="60" cy="60" r="45" fill="none" stroke="#EF4130" stroke-width="16" stroke-dasharray="0 283" transform="rotate(-90 60 60)"></circle>
+              <text id="r-donut-pct" x="60" y="58" text-anchor="middle" fill="#fff" font-size="17" font-weight="800">0%</text>
+              <text x="60" y="74" text-anchor="middle" fill="rgba(255,255,255,0.55)" font-size="8.5" font-weight="600" letter-spacing="0.08em">INTEREST</text>
+            </svg>
+            <div style="display:flex;justify-content:center;gap:18px;font-size:12px;color:rgba(255,255,255,0.7);">
+              <span style="display:inline-flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:2px;background:#CDBCAF;display:inline-block;" aria-hidden="true"></span>Principal</span>
+              <span style="display:inline-flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:2px;background:#EF4130;display:inline-block;" aria-hidden="true"></span>Interest</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════ 2. EXTRA REPAYMENTS CALCULATOR ═══════════ -->
+    <div id="extra" style="margin-bottom:clamp(44px,5.5vw,72px);">
+      <div style="max-width:680px;margin-bottom:22px;">
+        <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#EF4130;margin-bottom:12px;">Calculator 02</div>
+        <h2 style="font-weight:800;font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.08;letter-spacing:-0.02em;color:#40242C;margin:0 0 10px;">Extra repayments calculator</h2>
+        <p style="font-size:15.5px;line-height:1.6;color:#6E6258;margin:0;">Small extra payments compound. See how much interest and how many years a regular top-up, or a one-off lump sum, could take off your loan.</p>
+      </div>
+      <div class="calc-card">
+        <div>
+          <div class="calc-field"><label class="calc-label" for="e-amount">Loan amount ($)</label><input class="calc-input" type="number" id="e-amount" inputmode="decimal" min="0" step="1000" value="600000"></div>
+          <div class="calc-field"><label class="calc-label" for="e-rate">Interest rate (% p.a.)</label><input class="calc-input" type="number" id="e-rate" inputmode="decimal" min="0" max="25" step="0.01" value="5.50"></div>
+          <div class="calc-field"><label class="calc-label" for="e-term">Loan term (years)</label><input class="calc-input" type="number" id="e-term" inputmode="numeric" min="1" max="35" step="1" value="30"></div>
+          <div class="calc-field"><label class="calc-label" for="e-freq">Repayment frequency</label><select class="calc-input" id="e-freq"><option value="52">Weekly</option><option value="26" selected>Fortnightly</option><option value="12">Monthly</option></select></div>
+          <div class="calc-field"><label class="calc-label" for="e-extra">Extra payment each period ($)</label><input class="calc-input" type="number" id="e-extra" inputmode="decimal" min="0" step="10" value="100"></div>
+          <div class="calc-field"><label class="calc-label" for="e-lump">One-off lump sum today ($)</label><input class="calc-input" type="number" id="e-lump" inputmode="decimal" min="0" step="500" value="0"><p class="calc-hint">Fixed-rate loans usually cap extra repayments; break fees can apply. We can check your loan's rules.</p></div>
+        </div>
+        <div class="result-panel">
+          <div class="result-row"><p class="result-label">Interest saved</p><p class="result-big result-accent" id="e-saved">$0</p></div>
+          <div class="result-row"><p class="result-label">Time taken off the loan</p><p class="result-mid" id="e-time">0 years</p></div>
+          <div class="result-row"><p class="result-label">Loan paid off in</p><p class="result-mid" id="e-payoff">0 years</p></div>
+          <div class="result-row"><p class="result-label">Standard repayment → your repayment</p><p class="result-mid" id="e-payments">$0 → $0</p></div>
+          <div class="result-row">
+            <p class="result-label">Loan balance over time</p>
+            <svg viewBox="0 0 300 150" width="100%" aria-hidden="true" style="display:block;margin-top:6px;">
+              <line x1="36" y1="10" x2="36" y2="126" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+              <line x1="36" y1="126" x2="292" y2="126" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+              <polyline id="e-line-base" fill="none" stroke="#CDBCAF" stroke-width="2.5" stroke-linejoin="round" points=""/>
+              <polyline id="e-line-extra" fill="none" stroke="#EF4130" stroke-width="2.5" stroke-linejoin="round" points=""/>
+              <text x="36" y="140" text-anchor="start" fill="rgba(255,255,255,0.55)" font-size="9">0</text>
+              <text id="e-x-max" x="292" y="140" text-anchor="end" fill="rgba(255,255,255,0.55)" font-size="9"></text>
+              <text id="e-y-max" x="32" y="16" text-anchor="end" fill="rgba(255,255,255,0.55)" font-size="9"></text>
+              <text x="32" y="129" text-anchor="end" fill="rgba(255,255,255,0.55)" font-size="9">$0</text>
+            </svg>
+            <div style="display:flex;justify-content:center;gap:18px;font-size:12px;color:rgba(255,255,255,0.7);margin-top:2px;">
+              <span style="display:inline-flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:2px;background:#CDBCAF;display:inline-block;" aria-hidden="true"></span>Standard</span>
+              <span style="display:inline-flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;border-radius:2px;background:#EF4130;display:inline-block;" aria-hidden="true"></span>With extras</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════ 3. REFIX / REFINANCE COMPARISON ═══════════ -->
+    <div id="refix" style="margin-bottom:clamp(44px,5.5vw,72px);">
+      <div style="max-width:680px;margin-bottom:22px;">
+        <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#EF4130;margin-bottom:12px;">Calculator 03</div>
+        <h2 style="font-weight:800;font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.08;letter-spacing:-0.02em;color:#40242C;margin:0 0 10px;">Refix &amp; refinance comparison</h2>
+        <p style="font-size:15.5px;line-height:1.6;color:#6E6258;margin:0;">Fixed rate coming up for renewal? Compare two rates side by side and see the difference per payment and over the remaining term.</p>
+      </div>
+      <div class="calc-card">
+        <div>
+          <div class="calc-field"><label class="calc-label" for="f-amount">Loan balance ($)</label><input class="calc-input" type="number" id="f-amount" inputmode="decimal" min="0" step="1000" value="500000"></div>
+          <div class="calc-field"><label class="calc-label" for="f-term">Remaining term (years)</label><input class="calc-input" type="number" id="f-term" inputmode="numeric" min="1" max="35" step="1" value="25"></div>
+          <div class="calc-field"><label class="calc-label" for="f-rate1">Rate A (% p.a.)</label><input class="calc-input" type="number" id="f-rate1" inputmode="decimal" min="0" max="25" step="0.01" value="6.50"><p class="calc-hint">For example, your current or offered rate.</p></div>
+          <div class="calc-field"><label class="calc-label" for="f-rate2">Rate B (% p.a.)</label><input class="calc-input" type="number" id="f-rate2" inputmode="decimal" min="0" max="25" step="0.01" value="5.50"><p class="calc-hint">For example, a rate you're comparing.</p></div>
+          <div class="calc-field"><label class="calc-label" for="f-freq">Repayment frequency</label><select class="calc-input" id="f-freq"><option value="52">Weekly</option><option value="26" selected>Fortnightly</option><option value="12">Monthly</option></select></div>
+        </div>
+        <div class="result-panel">
+          <div class="result-row"><p class="result-label">Repayment at Rate A</p><p class="result-mid" id="f-pay1">$0</p></div>
+          <div class="result-row"><p class="result-label">Repayment at Rate B</p><p class="result-mid" id="f-pay2">$0</p></div>
+          <div class="result-row"><p class="result-label">Difference per payment</p><p class="result-big result-accent" id="f-diff">$0</p></div>
+          <div class="result-row"><p class="result-label">Interest difference over remaining term</p><p class="result-mid" id="f-idiff">$0</p><p style="font-size:12px;line-height:1.45;color:rgba(255,255,255,0.5);margin:6px 0 0;">Assumes each rate held for the whole remaining term. In practice rates refix every few years, and break fees or cash-back clawbacks can apply when switching. We can run the real comparison for you.</p></div>
+          <div class="result-row">
+            <p class="result-label">Total interest compared</p>
+            <svg viewBox="0 0 300 84" width="100%" aria-hidden="true" style="display:block;margin-top:6px;">
+              <text id="f-barlabel1" x="0" y="12" fill="rgba(255,255,255,0.7)" font-size="10" font-weight="600">Rate A</text>
+              <rect x="0" y="18" width="300" height="14" rx="3" fill="rgba(255,255,255,0.08)"/>
+              <rect id="f-bar1" x="0" y="18" width="0" height="14" rx="3" fill="#CDBCAF"/>
+              <text id="f-barval1" x="6" y="29" fill="#fff" font-size="9.5" font-weight="700"></text>
+              <text id="f-barlabel2" x="0" y="54" fill="rgba(255,255,255,0.7)" font-size="10" font-weight="600">Rate B</text>
+              <rect x="0" y="60" width="300" height="14" rx="3" fill="rgba(255,255,255,0.08)"/>
+              <rect id="f-bar2" x="0" y="60" width="0" height="14" rx="3" fill="#EF4130"/>
+              <text id="f-barval2" x="6" y="71" fill="#fff" font-size="9.5" font-weight="700"></text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════ 4. DEPOSIT & LVR CALCULATOR ═══════════ -->
+    <div id="lvr" style="margin-bottom:clamp(44px,5.5vw,72px);">
+      <div style="max-width:680px;margin-bottom:22px;">
+        <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#EF4130;margin-bottom:12px;">Calculator 04</div>
+        <h2 style="font-weight:800;font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.08;letter-spacing:-0.02em;color:#40242C;margin:0 0 10px;">Deposit &amp; LVR calculator</h2>
+        <p style="font-size:15.5px;line-height:1.6;color:#6E6258;margin:0;">Your loan-to-value ratio (LVR) shapes which lenders and rates are open to you. See where your deposit puts you.</p>
+      </div>
+      <div class="calc-card">
+        <div>
+          <div class="calc-field"><label class="calc-label" for="l-price">Property price ($)</label><input class="calc-input" type="number" id="l-price" inputmode="decimal" min="0" step="5000" value="750000"></div>
+          <div class="calc-field"><label class="calc-label" for="l-deposit">Deposit, including KiwiSaver and grants ($)</label><input class="calc-input" type="number" id="l-deposit" inputmode="decimal" min="0" step="1000" value="150000"></div>
+        </div>
+        <div class="result-panel">
+          <div class="result-row"><p class="result-label">Loan you'd need</p><p class="result-mid" id="l-loan">$0</p></div>
+          <div class="result-row"><p class="result-label">Deposit</p><p class="result-mid" id="l-dep">0%</p></div>
+          <div class="result-row"><p class="result-label">Loan-to-value ratio (LVR)</p><p class="result-big result-accent" id="l-lvr">0%</p></div>
+          <div class="result-row">
+            <svg viewBox="0 0 300 50" width="100%" aria-hidden="true" style="display:block;">
+              <text x="240" y="8" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="9" font-weight="600">80% LVR</text>
+              <rect x="0" y="16" width="300" height="16" rx="4" fill="#CDBCAF"/>
+              <rect id="l-bar" x="0" y="16" width="0" height="16" rx="4" fill="#EF4130"/>
+              <line x1="240" y1="11" x2="240" y2="37" stroke="#fff" stroke-width="1.5" stroke-dasharray="3 3"/>
+              <text x="0" y="48" fill="rgba(255,255,255,0.55)" font-size="9">Loan</text>
+              <text x="300" y="48" text-anchor="end" fill="rgba(255,255,255,0.55)" font-size="9">Deposit</text>
+            </svg>
+          </div>
+          <div class="result-row"><p style="font-size:13.5px;line-height:1.55;color:rgba(255,255,255,0.75);margin:0;" id="l-note"></p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════ 5. RENTAL RETURN CALCULATOR ═══════════ -->
+    <div id="rental" style="margin-bottom:clamp(44px,5.5vw,72px);">
+      <div style="max-width:680px;margin-bottom:22px;">
+        <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#EF4130;margin-bottom:12px;">Calculator 05</div>
+        <h2 style="font-weight:800;font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.08;letter-spacing:-0.02em;color:#40242C;margin:0 0 10px;">Rental return calculator</h2>
+        <p style="font-size:15.5px;line-height:1.6;color:#6E6258;margin:0;">Gross yield is the headline number; net yield and weekly cashflow after interest are what actually matter. Run all three.</p>
+      </div>
+      <div class="calc-card">
+        <div>
+          <div class="calc-field"><label class="calc-label" for="y-price">Purchase price ($)</label><input class="calc-input" type="number" id="y-price" inputmode="decimal" min="0" step="5000" value="650000"></div>
+          <div class="calc-field"><label class="calc-label" for="y-rent">Weekly rent ($)</label><input class="calc-input" type="number" id="y-rent" inputmode="decimal" min="0" step="10" value="620"></div>
+          <div class="calc-field"><label class="calc-label" for="y-weeks">Weeks rented per year</label><input class="calc-input" type="number" id="y-weeks" inputmode="numeric" min="0" max="52" step="1" value="50"><p class="calc-hint">Allowing a week or two of vacancy keeps the numbers honest.</p></div>
+          <div class="calc-field"><label class="calc-label" for="y-rates">Council rates per year ($)</label><input class="calc-input" type="number" id="y-rates" inputmode="decimal" min="0" step="100" value="3000"></div>
+          <div class="calc-field"><label class="calc-label" for="y-ins">Insurance per year ($)</label><input class="calc-input" type="number" id="y-ins" inputmode="decimal" min="0" step="100" value="1800"></div>
+          <div class="calc-field"><label class="calc-label" for="y-maint">Maintenance per year ($)</label><input class="calc-input" type="number" id="y-maint" inputmode="decimal" min="0" step="100" value="1200"><p class="calc-hint">A common rule of thumb is to allow around 1% of the property's value per year, more for older homes.</p></div>
+          <div class="calc-field"><label class="calc-label" for="y-mgmt">Property management (% of rent)</label><input class="calc-input" type="number" id="y-mgmt" inputmode="decimal" min="0" max="20" step="0.5" value="8"><p class="calc-hint">Set to 0 if self-managing.</p></div>
+          <div class="calc-field"><label class="calc-label" for="y-loan">Loan amount ($, optional)</label><input class="calc-input" type="number" id="y-loan" inputmode="decimal" min="0" step="5000" value="455000"></div>
+          <div class="calc-field"><label class="calc-label" for="y-rate">Interest rate (% p.a.)</label><input class="calc-input" type="number" id="y-rate" inputmode="decimal" min="0" max="25" step="0.01" value="6.50"></div>
+        </div>
+        <div class="result-panel">
+          <div class="result-row"><p class="result-label">Gross yield</p><p class="result-big result-accent" id="y-gross">0%</p></div>
+          <div class="result-row"><p class="result-label">Net yield (after expenses, before interest)</p><p class="result-mid" id="y-net">0%</p></div>
+          <div class="result-row"><p class="result-label">Net rental income per year</p><p class="result-mid" id="y-netincome">$0</p></div>
+          <div class="result-row"><p class="result-label">Interest cost per year (interest-only)</p><p class="result-mid" id="y-interest">$0</p></div>
+          <div class="result-row"><p class="result-label">Cashflow after interest</p><p class="result-mid" id="y-cashflow">$0 per week</p></div>
+          <div class="result-row">
+            <p class="result-label">Annual picture</p>
+            <svg viewBox="0 0 300 122" width="100%" aria-hidden="true" style="display:block;margin-top:6px;">
+              <text x="0" y="12" fill="rgba(255,255,255,0.7)" font-size="10" font-weight="600">Rent collected</text>
+              <rect x="0" y="18" width="300" height="14" rx="3" fill="rgba(255,255,255,0.08)"/>
+              <rect id="y-bar1" x="0" y="18" width="0" height="14" rx="3" fill="#CDBCAF"/>
+              <text id="y-barval1" x="6" y="29" fill="#fff" font-size="9.5" font-weight="700"></text>
+              <text x="0" y="54" fill="rgba(255,255,255,0.7)" font-size="10" font-weight="600">Expenses + interest</text>
+              <rect x="0" y="60" width="300" height="14" rx="3" fill="rgba(255,255,255,0.08)"/>
+              <rect id="y-bar2" x="0" y="60" width="0" height="14" rx="3" fill="#EF4130"/>
+              <text id="y-barval2" x="6" y="71" fill="#fff" font-size="9.5" font-weight="700"></text>
+              <text x="0" y="96" fill="rgba(255,255,255,0.7)" font-size="10" font-weight="600">Left over</text>
+              <rect x="0" y="102" width="300" height="14" rx="3" fill="rgba(255,255,255,0.08)"/>
+              <rect id="y-bar3" x="0" y="102" width="0" height="14" rx="3" fill="#fff"/>
+              <text id="y-barval3" x="6" y="113" fill="#fff" font-size="9.5" font-weight="700"></text>
+            </svg>
+            <p style="font-size:12px;line-height:1.45;color:rgba(255,255,255,0.5);margin:8px 0 0;">Before tax and principal repayments. Interest-only lending has its own criteria and term limits, and investor lending carries LVR and debt-to-income rules. We can model the full picture with you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════ "HOW MUCH CAN I BORROW" — DELIBERATE NON-CALCULATOR ═══════════ -->
+    <div style="background:#F3EEE9;border:1px solid rgba(64,36,44,0.1);border-radius:14px;padding:clamp(28px,3.4vw,44px);margin-bottom:clamp(44px,5.5vw,72px);display:grid;grid-template-columns:1fr;gap:14px;">
+      <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#EF4130;">The calculator we deliberately left out</div>
+      <h2 style="font-weight:800;font-size:clamp(1.5rem,2.6vw,2.1rem);line-height:1.1;letter-spacing:-0.02em;color:#40242C;margin:0;">"How much can I borrow?"</h2>
+      <p style="font-size:15.5px;line-height:1.65;color:#6E6258;margin:0;max-width:60em;">A single number here would be a guess. Borrowing power depends on each lender's servicing test, debt-to-income rules, your income type and your commitments, and it varies widely between banks and non-bank lenders. That's doubly true if you're self-employed, have complex income or have had a decline. Rather than give you a number a lender won't honour, we'd rather look at your actual situation and tell you honestly what's realistic.</p>
+      <div><a href="index.html#contact" style="display:inline-flex;align-items:center;gap:9px;background:#40242C;color:#fff;font-weight:600;font-size:15.5px;padding:14px 24px;border-radius:5px;">Get a real answer →</a></div>
+    </div>
+
+    <p style="font-size:12.5px;line-height:1.6;color:#9A9085;margin:0 0 clamp(44px,5.5vw,72px);max-width:80ch;">These calculators give estimates only, based on the figures you enter and the assumptions described. They assume rates stay constant, don't account for lender fees, low-equity margins, repayment rules or individual criteria, and aren't financial advice or an offer of finance. Actual repayments and lending outcomes depend on the lender and your circumstances. Talk to us before making decisions.</p>
+  </section>
+
+  <section style="background:#EF4130;color:#fff;">
+    <div style="max-width:1200px;margin:0 auto;padding:clamp(44px,5.5vw,80px) 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:22px;">
+      <div style="max-width:34em;">
+        <h2 style="font-weight:900;font-size:clamp(1.8rem,3.4vw,2.7rem);line-height:1.06;letter-spacing:-0.025em;margin:0 0 10px;">Numbers looking interesting?</h2>
+        <p style="font-size:1.08rem;line-height:1.5;color:rgba(255,255,255,0.9);margin:0;">We'll test them against real lender criteria and tell you honestly what's possible. No obligation.</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;">
+        <a href="index.html#contact" style="background:#40242C;color:#fff;font-weight:600;font-size:16px;padding:15px 26px;border-radius:6px;">Book a call</a>
+        <a href="tel:+6421540274" data-tel style="border:1px solid rgba(255,255,255,0.6);color:#fff;font-weight:600;font-size:16px;padding:15px 26px;border-radius:6px;">Call 021 540 274</a>
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer style="background:#40242C;color:#fff;">
+    <div style="max-width:1200px;margin:0 auto;padding:clamp(48px,5vw,72px) 24px 32px;">
+      <div data-footer-grid style="display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:36px;">
+        <div>
+          <img src="logo-mark-sand.png" alt="" width="54" height="54" loading="lazy" style="height:54px;width:auto;display:block;margin-bottom:18px;" />
+          <div style="font-weight:800;font-size:1.05rem;letter-spacing:0.02em;color:#fff;margin-bottom:10px;">4D FINANCIAL PARTNERS</div>
+          <p style="font-size:14px;line-height:1.6;color:rgba(255,255,255,0.6);margin:0;max-width:26em;">Independent financial advice for New Zealanders: mortgages, specialist lending, insurance and KiwiSaver. Christchurch based, working NZ-wide.</p>
+        </div>
+        <div><div style="font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:16px;">Services</div><div style="display:flex;flex-direction:column;gap:11px;font-size:14.5px;color:rgba(255,255,255,0.78);"><a href="mortgages.html">Mortgages &amp; home loans</a><a href="specialist-lending.html">Specialist lending</a><a href="insurance.html">Life &amp; health insurance</a><a href="kiwisaver.html">KiwiSaver advice</a></div></div>
+        <div><div style="font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:16px;">Company</div><div style="display:flex;flex-direction:column;gap:11px;font-size:14.5px;color:rgba(255,255,255,0.78);"><a href="index.html#why">About us</a><a href="index.html#situations">Tricky situations</a><a href="calculators.html">Calculators</a><a href="index.html#contact">Book a call</a></div></div>
+        <div><div style="font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:16px;">Important documents</div><div style="display:flex;flex-direction:column;gap:11px;font-size:14.5px;color:rgba(255,255,255,0.78);"><a href="important-documents.html">Disclosure statement</a><a href="important-documents.html">Complaints process</a><a href="important-documents.html">Privacy policy</a><a href="important-documents.html">Scope of service</a></div></div>
+      </div>
+      <div style="margin-top:44px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.1);display:flex;flex-wrap:wrap;gap:14px 28px;justify-content:space-between;align-items:flex-start;">
+        <p style="font-size:12.5px;line-height:1.6;color:rgba(255,255,255,0.5);margin:0;max-width:72ch;">EBD Limited (FSP1011992), trading as 4D Financial Partners, is a Licensed Financial Advice Provider. Financial adviser: Addison Dale (FSP777157). If we can't resolve a complaint, you can contact our independent dispute resolution scheme, Financial Services Complaints Ltd (FSCL), free of charge. A copy of our disclosure statement is available free of charge on request. © 2026 EBD Limited, trading as 4D Financial Partners.</p>
+        <a href="tel:+6421540274" data-tel style="font-size:13px;font-weight:600;color:rgba(255,255,255,0.78);white-space:nowrap;">4d.financial · 021 540 274</a>
+      </div>
+    </div>
+  </footer>
+  <div data-mobile-bar style="position:fixed;bottom:0;left:0;right:0;z-index:60;background:#40242C;border-top:1px solid rgba(255,255,255,0.12);padding:10px 12px calc(10px + env(safe-area-inset-bottom));gap:10px;">
+    <a href="tel:+6421540274" data-tel style="flex:1;text-align:center;background:transparent;border:1px solid rgba(255,255,255,0.35);color:#fff;font-weight:700;font-size:15px;padding:12px;border-radius:6px;">Call now</a>
+    <a href="index.html#contact" style="flex:1;text-align:center;background:#EF4130;color:#fff;font-weight:700;font-size:15px;padding:12px;border-radius:6px;">Book a call</a>
+  </div>
+</div>
+<script>
+(function(){
+  var b=document.querySelector('[data-nav-burger]');
+  var m=document.querySelector('[data-mobile-menu]');
+  if(b&&m){
+    b.addEventListener('click',function(){
+      var open=m.style.display==='flex';
+      m.style.display=open?'none':'flex';
+      b.setAttribute('aria-expanded',open?'false':'true');
+      b.setAttribute('aria-label',open?'Open menu':'Close menu');
+    });
+    m.querySelectorAll('a').forEach(function(link){
+      link.addEventListener('click',function(){
+        m.style.display='none';
+        b.setAttribute('aria-expanded','false');
+        b.setAttribute('aria-label','Open menu');
+      });
+    });
+  }
+})();
+</script>
+<script>
+(function(){
+  var nzd0=new Intl.NumberFormat('en-NZ',{style:'currency',currency:'NZD',maximumFractionDigits:0});
+  var nzd2=new Intl.NumberFormat('en-NZ',{style:'currency',currency:'NZD',minimumFractionDigits:2,maximumFractionDigits:2});
+  function num(id){var v=parseFloat(document.getElementById(id).value);return isFinite(v)&&v>=0?v:0;}
+  function freqLabel(f){return f===52?'per week':(f===26?'per fortnight':'per month');}
+  function pmt(P,annualPct,years,f){
+    var n=Math.round(years*f);if(P<=0||n<=0)return 0;
+    var r=annualPct/100/f;
+    if(r===0)return P/n;
+    return P*r/(1-Math.pow(1+r,-n));
+  }
+  function periodsToText(periods,f){
+    var years=periods/f;
+    var y=Math.floor(years);
+    var mo=Math.round((years-y)*12);
+    if(mo===12){y+=1;mo=0;}
+    var out=[];
+    if(y>0)out.push(y+(y===1?' year':' years'));
+    if(mo>0)out.push(mo+(mo===1?' month':' months'));
+    return out.length?out.join(', '):'under a month';
+  }
+  function on(ids,fn){ids.forEach(function(id){var el=document.getElementById(id);if(el)el.addEventListener('input',fn);});fn();}
+  function setText(id,t){var el=document.getElementById(id);if(el)el.textContent=t;}
+  function setAttr(id,attr,v){var el=document.getElementById(id);if(el)el.setAttribute(attr,v);}
+  function shortNZD(v){if(v>=1e6)return '$'+(v/1e6).toFixed(v>=1e7?0:2).replace(/\.00$/,'')+'m';if(v>=1e3)return '$'+Math.round(v/1e3)+'k';return '$'+Math.round(v);}
+  function setBar(barId,valId,value,max,maxW,fmt){
+    var w=max>0?Math.max(0,Math.min(1,value/max))*maxW:0;
+    setAttr(barId,'width',w.toFixed(1));
+    var t=document.getElementById(valId);
+    if(t){t.textContent=fmt(Math.max(0,value));t.setAttribute('x',(w>110?6:w+6).toFixed(0));t.setAttribute('fill',w>110?'#40242C':'#fff');}
+  }
+
+  /* ── 1. Loan repayments ── */
+  on(['r-amount','r-rate','r-term','r-freq'],function(){
+    var P=num('r-amount'),rate=num('r-rate'),yrs=num('r-term'),f=parseInt(document.getElementById('r-freq').value,10);
+    var pay=pmt(P,rate,yrs,f),n=Math.round(yrs*f);
+    setText('r-payment',nzd2.format(pay));
+    setText('r-freq-label',freqLabel(f));
+    setText('r-interest',nzd0.format(Math.max(0,pay*n-P)));
+    setText('r-total',nzd0.format(pay*n));
+    setText('r-stress',nzd2.format(pmt(P,rate+1,yrs,f))+' '+freqLabel(f));
+    setText('r-io',nzd2.format(P*(rate/100)/f)+' '+freqLabel(f));
+    var totalPaid=pay*n,share=totalPaid>0?Math.max(0,totalPaid-P)/totalPaid:0,C=2*Math.PI*45;
+    setAttr('r-donut','stroke-dasharray',(share*C).toFixed(1)+' '+C.toFixed(1));
+    setText('r-donut-pct',Math.round(share*100)+'%');
+  });
+
+  /* ── 2. Extra repayments ── */
+  function simulate(P,rate,f,pay,lump){
+    var r=rate/100/f;
+    var bal=Math.max(0,P-lump);
+    var interest=0,periods=0,cap=f*100;
+    if(bal<=0)return{interest:0,periods:0,ok:true};
+    if(r>0&&pay<=bal*r)return{ok:false};
+    while(bal>0&&periods<cap){
+      var i=bal*r;
+      interest+=i;
+      var principal=Math.min(pay-i,bal);
+      bal-=principal;
+      periods++;
+    }
+    return{interest:interest,periods:periods,ok:true};
+  }
+  function series(P,rate,f,pay,lump){
+    var r=rate/100/f;
+    var bal=Math.max(0,P-lump);
+    var pts=[bal],periods=0,cap=f*100;
+    if(bal<=0)return pts;
+    if(r>0&&pay<=bal*r)return null;
+    while(bal>0&&periods<cap){
+      var i=bal*r;
+      var principal=Math.min(pay-i,bal);
+      bal-=principal;
+      periods++;
+      if(periods%f===0)pts.push(Math.max(0,bal));
+    }
+    if(pts[pts.length-1]>0)pts.push(0);
+    return pts;
+  }
+  function drawLine(id,pts,maxY,maxYears){
+    var el=document.getElementById(id);if(!el||!pts)return;
+    var x0=36,x1=292,y0=126,y1=10;
+    var str=pts.map(function(v,i){
+      var x=x0+(maxYears>0?(i/maxYears):0)*(x1-x0);
+      var y=y0-(maxY>0?(v/maxY):0)*(y0-y1);
+      return x.toFixed(1)+','+y.toFixed(1);
+    }).join(' ');
+    el.setAttribute('points',str);
+  }
+  on(['e-amount','e-rate','e-term','e-freq','e-extra','e-lump'],function(){
+    var P=num('e-amount'),rate=num('e-rate'),yrs=num('e-term'),f=parseInt(document.getElementById('e-freq').value,10);
+    var extra=num('e-extra'),lump=num('e-lump');
+    var base=pmt(P,rate,yrs,f),n=Math.round(yrs*f);
+    var baseInterest=Math.max(0,base*n-P);
+    var res=simulate(P,rate,f,base+extra,lump);
+    if(!res.ok||base===0){
+      setText('e-saved','—');setText('e-time','—');setText('e-payoff','—');setText('e-payments','—');
+      setAttr('e-line-base','points','');setAttr('e-line-extra','points','');
+      return;
+    }
+    setText('e-saved',nzd0.format(Math.max(0,baseInterest-res.interest)));
+    setText('e-time',periodsToText(Math.max(0,n-res.periods),f));
+    setText('e-payoff',periodsToText(res.periods,f));
+    setText('e-payments',nzd2.format(base)+' → '+nzd2.format(base+extra)+' '+freqLabel(f));
+    var sBase=series(P,rate,f,base,0),sExtra=series(P,rate,f,base+extra,lump);
+    drawLine('e-line-base',sBase,P,yrs);
+    drawLine('e-line-extra',sExtra,P,yrs);
+    setText('e-x-max',Math.round(yrs)+' yrs');
+    setText('e-y-max',shortNZD(P));
+  });
+
+  /* ── 3. Refix / refinance comparison ── */
+  on(['f-amount','f-term','f-rate1','f-rate2','f-freq'],function(){
+    var P=num('f-amount'),yrs=num('f-term'),f=parseInt(document.getElementById('f-freq').value,10);
+    var r1=num('f-rate1'),r2=num('f-rate2');
+    var p1=pmt(P,r1,yrs,f),p2=pmt(P,r2,yrs,f),n=Math.round(yrs*f);
+    setText('f-pay1',nzd2.format(p1)+' '+freqLabel(f)+' at '+r1.toFixed(2)+'%');
+    setText('f-pay2',nzd2.format(p2)+' '+freqLabel(f)+' at '+r2.toFixed(2)+'%');
+    setText('f-diff',nzd2.format(Math.abs(p1-p2))+' '+freqLabel(f));
+    setText('f-idiff',nzd0.format(Math.abs((p1*n)-(p2*n))));
+    var i1=Math.max(0,p1*n-P),i2=Math.max(0,p2*n-P),imax=Math.max(i1,i2);
+    setText('f-barlabel1','Rate A · '+r1.toFixed(2)+'%');
+    setText('f-barlabel2','Rate B · '+r2.toFixed(2)+'%');
+    setBar('f-bar1','f-barval1',i1,imax,300,function(v){return nzd0.format(v);});
+    setBar('f-bar2','f-barval2',i2,imax,300,function(v){return nzd0.format(v);});
+  });
+
+  /* ── 4. Deposit & LVR ── */
+  on(['l-price','l-deposit'],function(){
+    var price=num('l-price'),dep=Math.min(num('l-deposit'),num('l-price'));
+    var loan=Math.max(0,price-dep);
+    var lvr=price>0?loan/price*100:0;
+    var depPct=price>0?dep/price*100:0;
+    setText('l-loan',nzd0.format(loan));
+    setText('l-dep',nzd0.format(dep)+' ('+depPct.toFixed(1)+'%)');
+    setText('l-lvr',lvr.toFixed(1)+'%');
+    setAttr('l-bar','width',(Math.max(0,Math.min(100,lvr))/100*300).toFixed(1));
+    var note;
+    if(price<=0){note='Enter a property price to see your LVR.';}
+    else if(lvr<=80){note='A deposit of 20% or more meets the level most banks prefer for existing homes, which generally opens up the widest range of lenders and rates.';}
+    else if(lvr<=90){note='Under a 20% deposit is low-equity territory for most banks, and low-equity margins or premiums can apply. Options can still exist, including low-deposit and non-bank lending. Worth a conversation.';}
+    else{note='Above 90% LVR, mainstream bank options narrow considerably. Depending on your situation there may still be paths worth exploring, so talk to us before ruling anything out.';}
+    setText('l-note',note);
+  });
+
+  /* ── 5. Rental return ── */
+  on(['y-price','y-rent','y-weeks','y-rates','y-ins','y-maint','y-mgmt','y-loan','y-rate'],function(){
+    var price=num('y-price'),rent=num('y-rent'),weeks=Math.min(52,num('y-weeks'));
+    var exp=num('y-rates')+num('y-ins')+num('y-maint');
+    var mgmtPct=num('y-mgmt'),loan=num('y-loan'),rate=num('y-rate');
+    var annualRent=rent*weeks;
+    var mgmt=annualRent*mgmtPct/100;
+    var totalExp=exp+mgmt;
+    var netIncome=annualRent-totalExp;
+    var grossYield=price>0?(rent*52)/price*100:0;
+    var netYield=price>0?netIncome/price*100:0;
+    var interest=loan*(rate/100);
+    var cashflow=netIncome-interest;
+    setText('y-gross',grossYield.toFixed(2)+'%');
+    setText('y-net',netYield.toFixed(2)+'%');
+    setText('y-netincome',nzd0.format(netIncome));
+    setText('y-interest',nzd0.format(interest));
+    var wk=cashflow/52;
+    setText('y-cashflow',(wk<0?'−':'')+nzd0.format(Math.abs(wk))+' per week ('+(cashflow<0?'−':'')+nzd0.format(Math.abs(cashflow))+' per year)');
+    var costs=totalExp+interest;
+    var left=Math.max(0,annualRent-costs);
+    var bmax=Math.max(annualRent,costs,1);
+    setBar('y-bar1','y-barval1',annualRent,bmax,300,function(v){return nzd0.format(v);});
+    setBar('y-bar2','y-barval2',costs,bmax,300,function(v){return nzd0.format(v);});
+    setBar('y-bar3','y-barval3',left,bmax,300,function(v){return cashflow<0?'Shortfall of '+nzd0.format(Math.abs(cashflow)):nzd0.format(left);});
+  });
+
+  /* Phone link hooks — CONVERSION EVENT (Tuesday): fire gtag call-click conversion inside this handler */
+  document.querySelectorAll('[data-tel]').forEach(function(a){
+    a.addEventListener('click',function(){ /* gtag('event','call_click',...) */ });
+  });
+})();
+</script>
+</body>
+</html>
