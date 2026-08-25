@@ -84,15 +84,15 @@
   }
   @media (max-width:980px){
     [data-hero-grid]{grid-template-columns:1fr !important;}
+    [data-process-wrap]{grid-template-columns:1fr !important;}
     [data-contact-grid]{grid-template-columns:1fr !important;}
     [data-why-grid]{grid-template-columns:1fr !important;}
-    [data-situations-grid]{grid-template-columns:1fr !important;}
     [data-pillar-grid]{grid-template-columns:1fr 1fr !important;}
     [data-process-grid]{grid-template-columns:1fr 1fr !important;}
     [data-advisers-grid]{grid-template-columns:1fr 1fr !important;}
   }
   @media (max-width:560px){
-    [data-pillar-grid],[data-process-grid],[data-why-cards],[data-situations-cards],[data-advisers-grid]{grid-template-columns:1fr !important;}
+    [data-pillar-grid],[data-process-grid],[data-why-cards],[data-advisers-grid]{grid-template-columns:1fr !important;}
     [data-hero-art]{display:none !important;}
     [data-hero-bar]{flex-wrap:wrap !important;}
     [data-hero-bar] input{flex:1 0 100% !important;border-left:none !important;}
@@ -121,7 +121,7 @@
       </div>
       <div data-nav-cta style="display:flex;align-items:center;gap:18px;flex:none;">
         <a href="tel:+6421540274" data-tel style="font-size:15px;font-weight:600;color:#fff;white-space:nowrap;display:flex;align-items:center;gap:7px;"><span style="width:7px;height:7px;border-radius:50%;background:#CBBEB1;display:inline-block;" aria-hidden="true"></span>021 540 274</a>
-        <a href="#contact" style="background:#EF4130;color:#fff;font-weight:600;font-size:15px;padding:11px 20px;border-radius:4px;">Book a call</a>
+        <a href="#contact" style="background:#EF4130;color:#fff;font-weight:600;font-size:15px;padding:11px 20px;border-radius:4px;">Book a free meeting</a>
       </div>
       <button data-nav-burger aria-label="Open menu" aria-expanded="false" style="border:1px solid rgba(255,255,255,0.25);background:transparent;width:42px;height:42px;border-radius:4px;cursor:pointer;align-items:center;justify-content:center;flex-direction:column;gap:4px;">
         <span style="display:block;width:18px;height:2px;background:#fff;" aria-hidden="true"></span><span style="display:block;width:18px;height:2px;background:#fff;" aria-hidden="true"></span><span style="display:block;width:18px;height:2px;background:#fff;" aria-hidden="true"></span>
@@ -134,7 +134,7 @@
       <a href="kiwisaver.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">KiwiSaver</a>
       <a href="calculators.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">Calculators</a>
       <a href="important-documents.html" style="padding:12px 0;font-weight:600;color:#fff;border-bottom:1px solid rgba(255,255,255,0.1);">Important documents</a>
-      <a href="#contact" style="margin-top:12px;background:#EF4130;color:#fff;text-align:center;font-weight:600;padding:14px;border-radius:4px;">Book a call</a>
+      <a href="#contact" style="margin-top:12px;background:#EF4130;color:#fff;text-align:center;font-weight:600;padding:14px;border-radius:4px;">Book a free meeting</a>
     </div>
   </header>
   <main id="main">
@@ -222,25 +222,7 @@
       </div>
     </div>
   </section>
-  <section id="situations" style="background:#F3ECE6;border-top:1px solid rgba(64,36,44,0.07);">
-    <div style="max-width:1200px;margin:0 auto;padding:clamp(56px,7vw,108px) 24px;display:grid;grid-template-columns:0.95fr 1.05fr;gap:clamp(36px,5vw,72px);align-items:center;" data-situations-grid>
-      <div>
-        <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#40242C;margin-bottom:16px;">Especially when it's not straightforward</div>
-        <h2 style="font-weight:800;font-size:clamp(2rem,3.6vw,2.9rem);line-height:1.06;letter-spacing:-0.025em;color:#40242C;margin:0 0 22px;text-wrap:balance;">Life isn't a tick-box. Good advice shouldn't be either.</h2>
-        <p style="font-size:1.08rem;line-height:1.6;color:#6E6258;margin:0 0 30px;max-width:34em;">Plenty of people come to us after a bank's “computer says no”. Because we're independent and work with non-bank and specialist lenders, we can often find a way forward when the main banks won't. Tell us the situation; we'll tell you honestly what's possible.</p>
-        <a href="#contact" style="display:inline-flex;align-items:center;gap:9px;background:#40242C;color:#fff;font-weight:600;font-size:16px;padding:15px 26px;border-radius:4px;">Talk through your situation →</a>
-      </div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;" data-situations-cards>
-        <div style="background:#fff;border-radius:10px;padding:20px;display:flex;align-items:flex-start;gap:12px;"><span style="flex:none;width:24px;height:24px;border-radius:50%;background:rgba(64,36,44,0.12);color:#40242C;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px;" aria-hidden="true">✓</span><span style="font-weight:600;font-size:15px;color:#40242C;line-height:1.35;">The bank already said no</span></div>
-        <div style="background:#fff;border-radius:10px;padding:20px;display:flex;align-items:flex-start;gap:12px;"><span style="flex:none;width:24px;height:24px;border-radius:50%;background:rgba(64,36,44,0.12);color:#40242C;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px;" aria-hidden="true">✓</span><span style="font-weight:600;font-size:15px;color:#40242C;line-height:1.35;">Self-employed or contracting</span></div>
-        <div style="background:#fff;border-radius:10px;padding:20px;display:flex;align-items:flex-start;gap:12px;"><span style="flex:none;width:24px;height:24px;border-radius:50%;background:rgba(64,36,44,0.12);color:#40242C;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px;" aria-hidden="true">✓</span><span style="font-weight:600;font-size:15px;color:#40242C;line-height:1.35;">Recently separated or divorced</span></div>
-        <div style="background:#fff;border-radius:10px;padding:20px;display:flex;align-items:flex-start;gap:12px;"><span style="flex:none;width:24px;height:24px;border-radius:50%;background:rgba(64,36,44,0.12);color:#40242C;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px;" aria-hidden="true">✓</span><span style="font-weight:600;font-size:15px;color:#40242C;line-height:1.35;">Adverse or thin credit history</span></div>
-        <div style="background:#fff;border-radius:10px;padding:20px;display:flex;align-items:flex-start;gap:12px;"><span style="flex:none;width:24px;height:24px;border-radius:50%;background:rgba(64,36,44,0.12);color:#40242C;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px;" aria-hidden="true">✓</span><span style="font-weight:600;font-size:15px;color:#40242C;line-height:1.35;">New to New Zealand</span></div>
-        <div style="background:#fff;border-radius:10px;padding:20px;display:flex;align-items:flex-start;gap:12px;"><span style="flex:none;width:24px;height:24px;border-radius:50%;background:rgba(64,36,44,0.12);color:#40242C;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px;" aria-hidden="true">✓</span><span style="font-weight:600;font-size:15px;color:#40242C;line-height:1.35;">Consolidating or refinancing debt</span></div>
-      </div>
-    </div>
-  </section>
-  <section id="why" style="background:#CBBEB1;">
+    <section id="why" style="background:#CBBEB1;">
     <div style="max-width:1200px;margin:0 auto;padding:clamp(56px,7vw,108px) 24px;display:grid;grid-template-columns:0.85fr 1.15fr;gap:clamp(36px,5vw,72px);align-items:center;" data-why-grid>
       <div>
         <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#40242C;margin-bottom:18px;">Why 4D</div>
@@ -260,11 +242,14 @@
       <div style="font-size:12.5px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#40242C;margin-bottom:16px;">How it works</div>
       <h2 style="font-weight:800;font-size:clamp(2rem,3.6vw,2.9rem);line-height:1.06;letter-spacing:-0.025em;color:#40242C;margin:0;">Four steps. No obligation.</h2>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px;" data-process-grid>
+    <div style="display:grid;grid-template-columns:0.9fr 1.1fr;gap:clamp(24px,3.5vw,52px);align-items:center;" data-process-wrap>
+    <img src="team-advice.jpg" alt="The 4D team working through a lending scenario together" width="880" height="1100" loading="lazy" style="width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:16px;display:block;" />
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:26px 20px;" data-process-grid>
       <div style="padding-top:22px;border-top:2px solid #40242C;"><div style="font-family:ui-monospace,monospace;font-size:13px;color:#787267;margin-bottom:14px;">01</div><h3 style="font-weight:700;font-size:1.2rem;color:#40242C;margin:0 0 10px;">Talk</h3><p style="font-size:14.5px;line-height:1.55;color:#787267;margin:0;">A relaxed conversation about where you're headed.</p></div>
       <div style="padding-top:22px;border-top:2px solid rgba(64,36,44,0.14);"><div style="font-family:ui-monospace,monospace;font-size:13px;color:#787267;margin-bottom:14px;">02</div><h3 style="font-weight:700;font-size:1.2rem;color:#40242C;margin:0 0 10px;">Plan</h3><p style="font-size:14.5px;line-height:1.55;color:#787267;margin:0;">We map the market and recommend what genuinely fits.</p></div>
       <div style="padding-top:22px;border-top:2px solid rgba(64,36,44,0.14);"><div style="font-family:ui-monospace,monospace;font-size:13px;color:#787267;margin-bottom:14px;">03</div><h3 style="font-weight:700;font-size:1.2rem;color:#40242C;margin:0 0 10px;">Arrange</h3><p style="font-size:14.5px;line-height:1.55;color:#787267;margin:0;">We handle the lenders and paperwork for you.</p></div>
       <div style="padding-top:22px;border-top:2px solid rgba(64,36,44,0.14);"><div style="font-family:ui-monospace,monospace;font-size:13px;color:#787267;margin-bottom:14px;">04</div><h3 style="font-weight:700;font-size:1.2rem;color:#40242C;margin:0 0 10px;">Review</h3><p style="font-size:14.5px;line-height:1.55;color:#787267;margin:0;">We stay in your corner as life moves on.</p></div>
+    </div>
     </div>
   </section>
   <section id="resources" style="max-width:920px;margin:0 auto;padding:clamp(56px,7vw,108px) 24px;text-align:center;">
@@ -280,6 +265,9 @@
       <button data-tdot data-active="true" data-dot="0" aria-label="Story 1" style="width:9px;height:9px;border-radius:50%;border:none;padding:0;cursor:pointer;background:rgba(64,36,44,0.2);transition:background .2s;"></button>
       <button data-tdot data-active="false" data-dot="1" aria-label="Story 2" style="width:9px;height:9px;border-radius:50%;border:none;padding:0;cursor:pointer;background:rgba(64,36,44,0.2);transition:background .2s;"></button>
     </div>
+  </section>
+  <section aria-label="The 4D Financial Partners team" style="max-width:1200px;margin:0 auto;padding:0 24px clamp(56px,7vw,108px);">
+    <img src="team-meeting-wide.jpg" alt="Addison, Francisca and Yumeng in a client meeting at the 4D office" width="1680" height="800" loading="lazy" style="width:100%;height:auto;aspect-ratio:21/10;object-fit:cover;border-radius:16px;display:block;" />
   </section>
   <section id="contact" style="background:#40242C;color:#fff;">
     <div style="max-width:1200px;margin:0 auto;padding:clamp(52px,7vw,100px) 24px;display:grid;grid-template-columns:1fr 0.92fr;gap:clamp(36px,5vw,72px);align-items:center;" data-contact-grid>
@@ -307,7 +295,11 @@
             <button type="submit" style="width:100%;background:#EF4130;color:#fff;font-weight:700;font-size:16px;padding:15px;border:none;border-radius:7px;cursor:pointer;">Send &amp; request a callback</button>
           </form>
           <div id="contact-error" style="display:none;margin:14px 0 0;padding:12px 14px;background:rgba(239,65,48,0.08);border:1px solid rgba(239,65,48,0.3);border-radius:7px;" role="alert"><span style="font-size:13.5px;line-height:1.5;color:#40242C;">That didn't send. Please try again, or call us on <a href="tel:+6421540274" data-tel style="font-weight:700;color:#EF4130;text-decoration:underline;">021 540 274</a>.</span></div>
-          <p style="font-size:12.5px;line-height:1.45;color:#9A9085;margin:14px 0 0;text-align:center;">No obligation, and your details stay between us. We usually call back the same working day.</p>
+          <div style="margin:16px 0 0;padding-top:14px;border-top:1px solid #ECE3D9;display:flex;flex-direction:column;gap:8px;">
+            <div style="display:flex;align-items:baseline;gap:10px;font-size:13px;line-height:1.45;color:#787267;"><span style="font-weight:800;color:#40242C;flex:none;">1.</span><span>You send this form.</span></div>
+            <div style="display:flex;align-items:baseline;gap:10px;font-size:13px;line-height:1.45;color:#787267;"><span style="font-weight:800;color:#40242C;flex:none;">2.</span><span>An adviser calls you back the same working day.</span></div>
+            <div style="display:flex;align-items:baseline;gap:10px;font-size:13px;line-height:1.45;color:#787267;"><span style="font-weight:800;color:#40242C;flex:none;">3.</span><span>Free initial meeting, no obligation. Your details stay between us.</span></div>
+          </div>
         </div>
         <div id="contact-thanks" style="display:none;text-align:center;padding:20px 6px;" role="status">
           <div style="width:56px;height:56px;border-radius:50%;background:rgba(64,36,44,0.12);color:#40242C;font-size:26px;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;" aria-hidden="true">✓</div>
@@ -327,7 +319,7 @@
           <p style="font-size:14px;line-height:1.6;color:rgba(255,255,255,0.6);margin:0;max-width:26em;">Independent financial advice for New Zealanders: mortgages, specialist lending, insurance and KiwiSaver. Christchurch based, working NZ-wide.</p>
         </div>
         <div><div style="font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:16px;">Services</div><div style="display:flex;flex-direction:column;gap:11px;font-size:14.5px;color:rgba(255,255,255,0.78);"><a href="mortgages.html">Mortgages &amp; home loans</a><a href="specialist-lending.html">Specialist lending</a><a href="insurance.html">Life &amp; health insurance</a><a href="kiwisaver.html">KiwiSaver advice</a></div></div>
-        <div><div style="font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:16px;">Company</div><div style="display:flex;flex-direction:column;gap:11px;font-size:14.5px;color:rgba(255,255,255,0.78);"><a href="#why">About us</a><a href="#situations">Tricky situations</a><a href="calculators.html">Calculators</a><a href="#contact">Book a call</a></div></div>
+        <div><div style="font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:16px;">Company</div><div style="display:flex;flex-direction:column;gap:11px;font-size:14.5px;color:rgba(255,255,255,0.78);"><a href="#why">About us</a><a href="calculators.html">Calculators</a><a href="#contact">Book a free meeting</a></div></div>
         <div><div style="font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:16px;">Important documents</div><div style="display:flex;flex-direction:column;gap:11px;font-size:14.5px;color:rgba(255,255,255,0.78);"><a href="important-documents.html">Disclosure statement</a><a href="important-documents.html">Complaints process</a><a href="important-documents.html">Privacy policy</a><a href="important-documents.html">Scope of service</a></div></div>
       </div>
       <div style="margin-top:44px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.1);display:flex;flex-wrap:wrap;gap:14px 28px;justify-content:space-between;align-items:flex-start;">
@@ -338,7 +330,7 @@
   </footer>
   <div data-mobile-bar style="position:fixed;bottom:0;left:0;right:0;z-index:60;background:#40242C;border-top:1px solid rgba(255,255,255,0.12);padding:10px 12px calc(10px + env(safe-area-inset-bottom));gap:10px;">
     <a href="tel:+6421540274" data-tel style="flex:1;text-align:center;background:transparent;border:1px solid rgba(255,255,255,0.35);color:#fff;font-weight:700;font-size:15px;padding:12px;border-radius:6px;">Call now</a>
-    <a href="#contact" style="flex:1;text-align:center;background:#EF4130;color:#fff;font-weight:700;font-size:15px;padding:12px;border-radius:6px;">Book a call</a>
+    <a href="#contact" style="flex:1;text-align:center;background:#EF4130;color:#fff;font-weight:700;font-size:15px;padding:12px;border-radius:6px;">Book a free meeting</a>
   </div>
 </div>
 <script>
